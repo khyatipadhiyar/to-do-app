@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodyDark">
+<div class="container">
+  <div class="header">
+    <div class="headerToDo">
+      <h2>TODO</h2>
+    </div>
+  
+    <div class="headerMode">
+      <div class="mode"></div>
+     <!-- <img src="images/icon-sun.svg" alt="" class="mode"> -->
+    </div>
+  </div>
+  <form onSubmit="return false">
+    <div class="createToDo">
+      <span>
+        <div class="round">
+          <input type="checkbox" id="checkboxentry" />
+          <label for="checkboxentry"></label>
+        </div>
+      </span>
+      <input type="text" placeholder="Create a new todo..." id="todoEntry" class="inputDark">
+    </div>
+  </form>
+  <div class="todoTaskList">
+   
+  
+  </div>
+  <div class="todoActivity ">
+    <div class="itemLeft">
+      <label class="itemLeftlab"><span class="leftItem"> </span> items Left</label>
+    </div>
+   <div class="itemTask">
+    <label class="itemAll">All</label>
+    <label class="itemActive">Active</label>
+    <label class="itemCompleted">Completed</label>
+   </div>
+    <div class="clear">
+      <label class="itemClear">Clear Completed</label>
+    </div>
+    
+</div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
