@@ -44,7 +44,7 @@ arrTodoList.forEach(todoList => {
        </div>
    </div>
    <div class="itemIndividualClose">
-     <img src='images/icon-cross.svg' class='crossImg'>
+     <img src='images/icon-cross.svg' class='crossImg' alt='close'>
    </div>
  </div>
 
@@ -90,7 +90,7 @@ todoEntry.addEventListener("keyup", function(event) {
               </div>
           </div>
           <div class="itemIndividualClose">
-            <img src='images/icon-cross.svg' class='crossImg'>
+            <img src='images/icon-cross.svg' class='crossImg' alt='close'>
           </div>
         </div>
       `;
